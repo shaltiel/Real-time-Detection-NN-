@@ -33,9 +33,9 @@ The example is implementation as external objects in Max/MSP, and the workflow i
 ### Setting up in max: 
 3. Open the maxsource/training_set.maxhelp in max and add the external object path. Follow the instructions in the patch.
 
-4. Load piano vst or input piano and use inference with exsited ONNX model, or create a new training set.
+4. Load piano vst or input piano and use inference with exsited ONNX model (see /model_pytorch/trainedmodels), or create a new training set.
 
-### Train a new model:
+### Train a new model in PyTorch to Max:
 5. Follow the python notebook to train and export a new ONNX model then load it in inferdyn~ object in max.
 
 
