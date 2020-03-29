@@ -15,7 +15,7 @@ The example is implementation as external objects in Max/MSP, and the workflow i
 2. Train using Pytorch.
 3. Use the trained model with the external inferdyn~.mxo for inference.
 
-## Instructions
+## Instructions 
 
 ### Setting up the connx: 
 1. First download the realtime dynamic libraries from onnx-realtime microsoft:     https://github.com/microsoft/onnxruntime/releases/tag/v1.1.0 
@@ -32,7 +32,7 @@ The example is implementation as external objects in Max/MSP, and the workflow i
 
 ### Setting up in max: 
 3. Open the maxsource/training_set.maxhelp in max and add the external object path. Follow the instructions in the patch.
-
+(OSX, but source code avialable to build in windows)
 4. Load piano vst or input piano and use inference with exsited ONNX model (see /model_pytorch/trainedmodels), or create a new training set.
 
 ### Train a new model in PyTorch to Max:
