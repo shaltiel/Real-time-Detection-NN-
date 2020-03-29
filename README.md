@@ -11,6 +11,6 @@ for music and art applications.
 ## Method
 The example is implementation as external objects in Max/MSP, and the workflow is as follow:
 
-1. Generate a training set using the exteranl object traindyn~.mxo
+1. Generate a training set using the external object traindyn~.mxo
 2. Train using Pytorch.
 3. Use the trained model with the external inferdyn~.mxo for inference.
