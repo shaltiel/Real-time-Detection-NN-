@@ -1,5 +1,3 @@
-# Real-time-Detection-NN-
-
 
 # Real-Time detection of piano using Neural Networks
 
