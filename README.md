@@ -4,20 +4,21 @@
 ## Summary
 Real-time Piano Detection - a paradigm for working with Pytorch->ONNX->Max/MSP.
 
-As an example we show the ability to develop a simple detection of real-time and low-latency model for piano notes and the classification of instrumets.
-This paradigm is an open source that can be easily used by artists and researchers to combine NN models
-for music and art applications.
+As an example we show the ability to develop a low-latency detection algorithm for acoustic piano.
+This paradigm is an open source and can be easily used by artists and researchers to combine NN models
+in music and art applications.
 
 ## Method
-The example is implementation as external objects in Max/MSP, and the workflow is as follow:
+The example provides interface to Max/MSP using 2 external objects. The workflow is as follow:
 
-1. Generate a training set using the external object traindyn~.mxo
-2. Train using Pytorch.
-3. Use the trained model with the external inferdyn~.mxo for inference.
+1. Generate a training set using the external object traindyn~.mxo. This will create the dataset and label files.
+2. Train a model using Pytorch.
+3. Use the trained model with the external inferdyn~.mxo for inference. This is done by interfacing to ONNX-realtime c++ library. 
+
 
 ## Instructions 
 
-### Setting up the connx: 
+### Setting up the OONX: 
 1. First download the realtime dynamic libraries from onnx-realtime microsoft:     https://github.com/microsoft/onnxruntime/releases/tag/v1.1.0 
 
 2. Now you use  or create the dynamic lib that will be used within max object, this is in the connx/main.cpp file.
