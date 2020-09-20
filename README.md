@@ -36,8 +36,11 @@ In the field ` Other Linker Flags` change it to this :
 #### MAX SDK :
 0.2 Install the maxSDK to your computer from [here](https://cycling74.com/downloads/sdk/). <br>
 Bring the folder `source` 2 folder down from the root of the maxSDK folder, as stated [here](https://cycling74.com/sdk/max-sdk-7.3.3/html/chapter_platform.html). <br>
-For example - renaming it ONNX-Objects -, and encapsulating it in customs :
+For example - renaming it ONNX-Objects -, and encapsulating it a folder called custom :
 ![.](./Assets/2.png)
+
+Once compiled the file can be found in the `externals` folder of the max-sdk install. <br>
+`inferdyn~.mxo` can then be brought into max.
 
 
 ### Setting up the ONNX:
