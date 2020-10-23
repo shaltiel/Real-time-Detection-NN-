@@ -2,9 +2,10 @@
 # Real-Time detection of piano using Neural Networks
 
 ## Summary
-Real-time Piano Detection - a paradigm for working with Pytorch->ONNX->Max/MSP.
+Real-time Piano Detection - a paradigm for working with Pytorch->ONNX->Max/MSP
 
-As an example we show the ability to develop a low-latency detection algorithm for acoustic piano.
+As an example we show the ability to develop a low-latency detection algorithm for acoustic piano. 
+The results are only for monophonic notes, so if you manage to have a model that works for polyphonic playing, please let everyone know!
 This paradigm is an open source and can be easily used by artists and researchers to combine NN models
 in music and art applications.
 
