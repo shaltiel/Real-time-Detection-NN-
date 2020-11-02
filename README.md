@@ -42,6 +42,11 @@ For example - renaming it ONNX-Objects -, and encapsulating it a folder called c
 Once compiled the file can be found in the `externals` folder of the max-sdk install. <br>
 `inferdyn~.mxo` can then be brought into max.
 
+#### dylib files authorising
+
+In order to get the dylib files to work on macOS Catalina ( 10.15.6 ), the dylib files need to be accepted as verified.
+To do so, double click on them, and in Systeme Preferences -> Security And Privacy, allow them to be executed.
+
 
 ### Setting up the ONNX:
 1. First download the realtime dynamic libraries from onnx-realtime microsoft:     https://github.com/microsoft/onnxruntime/releases/tag/v1.1.0
